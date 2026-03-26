@@ -6,20 +6,20 @@
     <meta name="viewport" content="width=, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+    <link rel="stylesheet" href="">
 </head>
 <style>
     .main1 {
         background-color: rgb(113, 22, 197);
         color: white;
         border-radius: 17px;
-        width: 1200px;
+
     }
 
     .nav {
         display: flex;
-        padding: 20px 30px 20px 40px;
         justify-content: space-between;
-        align-items: center;
+
     }
 
     .nav a {
@@ -27,18 +27,9 @@
         color: white;
     }
 
-    .main1 .nav .intro .list1 {
-        list-style: none;
-        display: flex;
-    }
 
-    .main1 .nav .lists .list2 {
-        list-style: none;
-        display: flex;
-        gap: 13px;
-    }
 
-    .main1 .nav .login .list3 {
+    .main1 .nav ul {
         list-style: none;
         display: flex;
         gap: 10px;
@@ -56,68 +47,71 @@
         border-radius: 18px;
         border: none;
     }
-    .main2{
-        width: 1200px;
-    }
-    .main2 .text1{
+
     
+
+    .main2 .text1 {
+
         text-align: center;
-        width: 1200px;
-    }
-    .main2 .text1 p{
-            color: rgb(104, 101, 101);
     }
 
-    
-    .main2 .images{
+    .main2 .text1 p {
+        color: rgb(104, 101, 101);
+    }
+
+
+    .main2 .images {
         display: flex;
-        gap: 25px;
-        padding: 20px 0 0px 100px;
+        gap: 20px;
+        justify-content: center;
 
     }
-    .main2 .text2 p{
+
+    .main2 .images p {
+        font-size: medium;
+        font-weight: bold;
+    }
+
+    .main2 .text2 p {
         color: rgb(85, 83, 83);
         text-align: center;
-        width: ;
     }
-    .main2 .text2 a{
+
+    .main2 .text2 a {
         text-decoration: none;
     }
-    
-
 </style>
 
 <body>
     <div class="container">
         <div class="main1">
             <div class="nav">
-                <div class="intro">
-                    <ul class="list1">
-                        <li><a href=""><i class="fa-light fa-gem fa-xl" style="color: rgb(229, 38, 38);"></i></a></li>
-                        <li><a href="">
-                                <p><span style="font-size: 30px;">Study Course</span> <br>Journey to success</p>
-                            </a></li>
-                    </ul>
-                </div>
-                <div class="lists">
-                    <ul class="list2">
-                        <li><a href="">Home</a></li>
-                        <li><a href="">About</a></li>
-                        <li><a href="">Courses</a></li>
-                        <li><a href=""> Pages</a></li>
-                        <li><a href="">Contact</a></li>
-                    </ul>
-                </div>
-                <div class="login">
-                    <ul class="list3">
-                        <li><a href=""><i class="fa-solid fa-magnifying-glass fa-xs"
-                                    style="color: rgb(255, 255, 255);"></i></a></li>
-                        <li><a href=""><i class="fa-solid fa-user fa-xs"
-                                    style="color: rgb(255, 255, 255);"></i>Login</a></li>
-                        <li><a href=""><i class="fa-regular fa-moon fa-xs" style="color: rgb(255, 255, 255);"></i></a>
-                        </li>
-                    </ul>
-                </div>
+
+                <a href="">
+                    <p><i class="fa-regular fa-gem fa-2xl" style="color: rgb(226, 28, 28);"></i> <span
+                            style="font-size: 30px;">Study Course</span> <br> Journey to success</p>
+                </a>
+
+
+
+                <ul class="list2">
+                    <li><a href="">Home</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Courses</a></li>
+                    <li><a href=""> Pages</a></li>
+                    <li><a href="">Contact</a></li>
+                </ul>
+
+
+                <ul class="list3">
+                    <li><a href=""><i class="fa-solid fa-magnifying-glass fa-xs"
+                                style="color: rgb(255, 255, 255);"></i></a></li>
+                    <li><a href=""><i class="fa-solid fa-user fa-xs" style="color: rgb(255, 255, 255);"></i>Login</a>
+                    </li>
+                    <li><a href=""><i class="fa-regular fa-moon fa-xs" style="color: rgb(255, 255, 255);"></i></a>
+                    </li>
+                </ul>
+
             </div>
             <div class="content">
 
@@ -128,27 +122,29 @@
 
         </div>
         <div class="main2">
-    <div class="text1">
-        <p>JOIN OUR LEARN COURSES </p>
-        <h1>Featured Online Courses</h1>
-    </div>
+            <div class="text1">
+                <p>JOIN OUR LEARN COURSES </p>
+                <h1>Featured Online Courses</h1>
+            </div>
             <div class="images">
                 <div class="image1">
                     <img src="image1.avif" alt="one" style="height: 300px;width: 300px;">
+                    <p>Open Programming Courses For everyone</p>
 
                 </div>
                 <div class="image2">
                     <img src="image2.avif" alt="two" style="height: 300px; width: 300px;">
-
+                    <p>Learning to write as a clean <br>and Professional Author</p>
                 </div>
                 <div class="image3">
                     <img src="image3.avif" alt="three" style="height: 300px;width: 300px;">
-
+                    <p>Learn Master JQuery in a Short <br> Period of Time</p>
                 </div>
 
             </div>
             <div class="text2">
-            <p>Control your personal preference settings to get notified adout <br>appropriate courses <a href="" style="color: rgb(216, 55, 55);">View All Courses</a></p>
+                <p>Control your personal preference settings to get notified adout <br>appropriate courses <a href=""
+                        style="color: rgb(216, 55, 55);">View All Courses</a></p>
 
             </div>
         </div>

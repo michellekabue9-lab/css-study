@@ -1,0 +1,70 @@
+.main1{
+     background-color: rgb(113, 22, 197);
+        color: white;
+        border-radius: 17px;
+
+}
+.nav{
+    display: flex;
+        justify-content: space-between;
+        padding: 0px 50px 0px 60px;
+        display: flex;
+
+}
+
+
+.nav a{
+     text-decoration: none;
+        color: white;
+}
+.main1 .nav .intro{
+    display: flex;
+}
+.main1 .nav ul {
+        list-style: none;
+        display: flex;
+        gap: 10px;
+    }
+      .content {
+        text-align: center;
+        padding: 0 0 40px 0;
+    }
+    button {
+        background-color: rgb(233, 43, 43);
+        color: white;
+        padding: 10px;
+        border-radius: 18px;
+        border: none;
+    }
+     .main2 .text1 {
+
+        text-align: center;
+    }
+
+    .main2 .text1 p {
+        color: rgb(104, 101, 101);
+    }
+
+
+    .main2 .images {
+        display: flex;
+        gap: 20px;
+        justify-content: center;
+       
+
+    }
+
+    .main2 .images p {
+        font-size: medium;
+        font-weight: bold;
+    }
+
+    .main2 .text2 p {
+        color: rgb(85, 83, 83);
+        text-align: center;
+    }
+
+    .main2 .text2 a {
+        text-decoration: none;
+        color: rgb(218, 49, 49);
+    }
